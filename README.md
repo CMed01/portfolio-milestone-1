@@ -37,6 +37,11 @@
 ### Features
 
 ### Technologies
+- [Canva](https://www.canva.com/) - Used to re-create Cake and Bake logos.
+- [Figma](https://www.figma.com/) - Used to create wireframes for website.
+- [Coolers](https://coolors.co/) - Used to create colour scheme for website.
+- [Stack Overflow](https://stackoverflow.com/) - Used to troubleshoot HTML and CSS coding queries.
+- [Google Fonts](https://fonts.google.com/) - Used to apply fonts to website.
 
 ### Testing
 
