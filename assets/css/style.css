@@ -1,7 +1,72 @@
-/* Main Template */
+@import url('https://fonts.googleapis.com/css2?family=Biryani&family=Montserrat+Alternates:ital@1&family=Oswald&display=swap');
 
-/* Fonts */
+/* Headings and Logo */
 
-font-family: 'Biryani', sans-serif;
-font-family: 'Montserrat Alternates', sans-serif;
-font-family: 'Oswald', sans-serif;
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+    font-family: 'Biryani', sans-serif;
+}
+
+/* Navigation Bar */
+
+#navbar {
+    background-color: #1c1b1a;
+}
+
+.logo {
+    width: 20%;
+}
+
+#menu {
+    font-size: 50%;
+    letter-spacing: 2px;
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+
+}
+
+#menu li {
+    list-style: none;
+}
+
+.active {
+    position: relative;
+}
+
+.active::after {
+    content: " ";
+    height: 2px;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    bottom: 0px;
+    background: linear-gradient(to right, #aade02 0%, #aade02 33%, #09f8f3 33%, #09f8f3 66%, #f50246 66%, #f50246 100%);
+}
+
+#menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #aade02 0%, #aade02 33%, #09f8f3 33%, #09f8f3 66%, #f50246 66%, #f50246 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+#menu a:hover {
+    background-size: 100% 100%;
+    color: #1c1b1a;
+    font-weight: bold;
+}
+
