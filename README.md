@@ -42,6 +42,7 @@
 - [Coolers](https://coolors.co/) - Used to create colour scheme for website.
 - [Stack Overflow](https://stackoverflow.com/) - Used to troubleshoot HTML and CSS coding queries.
 - [Google Fonts](https://fonts.google.com/) - Used to apply fonts to website.
+- [Fontjoy](https://fontjoy.com/) - Use to create font pairings
 
 ### Testing
 
