@@ -109,8 +109,8 @@ hr {
 
 #cake-options {
     width: 100%;
-    height:auto;
-  }
+    height: auto;
+}
 
 #cake-options h2 {
     text-align: center;
@@ -124,15 +124,18 @@ hr {
 }
 
 .cupcake-index-img {
-    width:100%;
+    width: 100%;
     height: 250px;
     object-fit: cover;
-    
-}
-
-.description {
 
 }
+
+.description {}
+
+/* Footer */
+
+.social-media {}
+
 
 /* Media Queries */
 
