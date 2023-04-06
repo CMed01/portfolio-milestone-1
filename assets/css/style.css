@@ -109,56 +109,35 @@ hr {
 
 #cake-options {
     width: 100%;
-    height: 325px;
-}
+    height:auto;
+  }
 
 #cake-options h2 {
     text-align: center;
 }
 
 .image-container {
-    width: 80%;
-    padding: 10px 0;
-    position: absolute;
-    left: 10%;
+    width: 100%;
+    height: 250px;
+    border: 1px solid #f50246;
 
 }
 
 .cupcake-index-img {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
+    width:100%;
+    height: 250px;
+    object-fit: cover;
+    
 }
 
 .description {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 65%;
-}
 
-.image-container:hover .cupcake-index-img {
-    opacity: 0.15;
 }
-
-.image-container:hover .description {
-    opacity:1;
-}
-
 
 /* Media Queries */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-}
+@media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -168,6 +147,7 @@ hr {
         background-size: 100%;
     }
 }
+
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
@@ -181,9 +161,35 @@ hr {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+    /* .cupcake-index-img {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    
+    .description {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 65%;
+    }
+    
+    .image-container:hover .cupcake-index-img {
+        opacity: 0.15;
+    }
+    
+    .image-container:hover .description {
+        opacity:1;
+    } */
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
+@media only screen and (min-width: 1200px) {}
