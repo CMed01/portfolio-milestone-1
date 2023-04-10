@@ -266,6 +266,10 @@ hr {
         width: 100%;
         background-size: auto;
     }
+
+    #cupcake-photos {
+        column-count: 4;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
