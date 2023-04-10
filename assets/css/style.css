@@ -153,12 +153,10 @@ hr {
 /* Footer */
 
 #footer {
-    margin-right: 1%;
     border-top: 2px solid #aade02;
     background-color: #1c1b1a;
     height: auto;
     font-size: xx-small;
-    position: absolute;
 }
 
 #footer h3 {
@@ -207,6 +205,30 @@ hr {
     text-decoration: none;
 }
 
+
+/* About me page */
+
+.center-about {
+    width:80%;
+    margin: 5% auto;
+}
+
+.about-me-img-outer {
+    width: 300px;
+    height:300px;
+    margin: auto;
+}
+
+.about-me-img {
+    background: url("../images/meena-baking-cake.webp") no-repeat right/150%;
+    height: 100%;
+    border-radius: 50%;
+    zoom: 50%;
+}
+
+.about-me-text {
+    text-align:center;
+}
 
 /* Media Queries */
 
