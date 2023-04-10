@@ -244,6 +244,18 @@ hr {
     margin: 2px 0px;
 }
 
+#cake-photos {
+    clear:both;
+    line-height:0;
+    column-count: 2;
+    column-gap: 4px;
+}
+
+#cake-photos img {
+    width:100%;
+    margin: 2px 0px;
+}
+
 /* Media Queries */
 
 /* Extra small devices (phones, 600px and down) */
