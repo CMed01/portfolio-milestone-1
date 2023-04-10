@@ -131,10 +131,57 @@ hr {
 
 /* Footer */
 
-.social-media {
-    border: 1px solid #09f8f3;
-    text-align: center;
+#footer {
+    background-color: #1c1b1a;
+    height:auto;
+    font-size: xx-small;
+    position: absolute;
+}
 
+#footer h3 {
+    color:#FFFFFF;
+}
+
+.footer-contact {
+    color:#FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+
+.footer-logo {
+    height: 20%;
+    width: 20%;
+    padding:5%;
+}
+
+.footer-contact-info {
+    padding-right: 5%;
+    color: #ffffff;
+}
+
+.social-media {
+    border-bottom: 1px solid #09f8f3;
+    border-top: 1px solid #09f8f3;
+    font-size: x-small;
+    display: flex;
+    justify-content: space-between;
+    padding:1%;
+}
+
+.company-footer {
+    padding-left: 2%;
+    color: #ffffff;
+}
+
+.social-footer{
+    padding-right:2%;
+    word-spacing: 5px;
+    }
+
+.social-links {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 
