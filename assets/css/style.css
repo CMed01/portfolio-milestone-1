@@ -282,6 +282,10 @@ hr {
     #cupcake-photos {
         column-count: 4;
     }
+
+    #cake-photos {
+        column-count: 4;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
