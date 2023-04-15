@@ -44,6 +44,7 @@
 - [Google Fonts](https://fonts.google.com/) - Used to apply fonts to website.
 - [Fontjoy](https://fontjoy.com/) - Used to create font pairings
 - [Font Awesome](https://fontawesome.com/) - Used to add icons to enhance user experience.
+- [Bitly](https://app.bitly.com/) - Used to create bitly links for long URLs.
 
 ### Testing
 
