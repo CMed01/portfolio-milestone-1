@@ -49,58 +49,90 @@
                 <div class="form-img"></div>
             </div>
         </div>
-
-        <hr>
-
+    </section>
+    <hr>
+    <section class="form-section">
         <form action="" method="" class="contact-form">
-            <h3>Get in touch for a home made cake today! <i class="fa-solid fa-cake-candles"></i></h3>
+            <h3>Get in touch for a home made cake today!</h3>
 
-            <label for="fname">First Name</label>
-            <input type="text" name="first_name" id="fname" class="text-input" required>
+            <div class="form-row">
+                <div class="form-column">
+                    <label for="fname">First Name</label>
+                    <br>
+                    <input type="text" name="first_name" id="fname" class="text-input input" required>
 
-            <label for="lname">Last Name</label>
-            <input type="text" name="last_name" id="lname" class="text-input" required>
+                    <br>
 
-            <label for="email">Email Address</label>
-            <input type="text" name="email_address" id="email" class="text-input" required>
+                    <label for="lname">Last Name</label>
+                    <br>
+                    <input type="text" name="last_name" id="lname" class="text-input input" required>
 
-            <label for="pnumber">Phone Number</label>
-            <input type="number" name="pnumber" id="pnumber" class="number-input" required>
+                </div>
+                <div class="form-column">
+                    <label for="email">Email Address</label>
+                    <br>
+                    <input type="text" name="email_address" id="email" class="text-input input" required>
 
-            <label for="occassion">Occassion</label>
+                    <br>
 
-            <div id="occassion">
-
-                <label for="o-birthday">Birthday</label>
-                <input type="radio" name="o-occassion" id="0-birthday" class="radio-input" value="yes" required>
-
-                <label for="o-wedding">Wedding</label>
-                <input type="radio" name="o-occassion" id="o-wedding" class="radio-input" value="yes">
-
-                <label for="o-other">Other</label>
-                <input type="radio" name="o-occassion" id="o-other" class="radio-input" value="yes">
-
-                <label for="o-if-other">Comment</label>
-                <input type="text" name="o-if-other" id="o-if-other" class="text-input"
-                    placeholder="If other, please provide further details">
-
+                    <label for="pnumber">Phone Number</label>
+                    <br>
+                    <input type="number" name="pnumber" id="pnumber" class="number-input input" required>
+                </div>
             </div>
 
-            <label for="serving-size">No. of servings</label>
-            <input type="number" name="serving-size" id="serving-size" class="number-input" required>
+            <div class="occassion">
+                <h4>Occassion</h4>
+                <ul>
+                    <li>
+                        <input type="radio" name="occassion" id="0-birthday" class="radio-input" value="yes" required>
+                        <label for="o-birthday">Birthday</label>
+                    </li>
 
-            <label for="date-required">Date required</label>
-            <input type="date" name="date-required" id="date-required" class="date-input" required>
+                    <li>
+                        <input type="radio" name="occassion" id="o-wedding" class="radio-input" value="yes">
+                        <label for="o-wedding">Wedding</label>
 
-            <label for="additional-info">Addtional Information</label>
-            <input type="text" name="additional_info"
-                placeholder="Let me know if you any other requests, such as size of cake, delivery or collection"
-                id="additional-info" class="info-input" required>
+                    </li>
+                    <li>
+                        <input type="radio" name="occassion" id="o-other" class="radio-input" value="yes">
+                        <label for="o-other">Other</label>
+                    </li>
+                    <li>
+                        <label for="o-if-other">Comment</label>
+                        <br>
+                        <textarea name="occassion" id="o-if-other" class="comment-input"
+                            placeholder="If other, please provide further details" rows="2"></textarea>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-row">
+                <div class="form-column">
+                    <label for="serving-size">No. of servings</label>
+                    <br>
+                    <input type="number" name="serving-size" id="serving-size" class="number-input input" required>
+                </div>
+                <div class="form-column">
+                    <label for="date-required">Date required</label>
+                    <br>
+                    <input type="date" name="date-required" id="date-required" class="date-input input" required>
+                </div>
+            </div>
+            <div class="additional">
+                <label for="additional-info">Addtional Information</label>
+                <textarea name="additional_info"
+                    placeholder="Let me know if you any other requests, such as size of cake, delivery or collection"
+                    id="additional-info" class="info-input" rows="6" required></textarea>
+            </div>
 
-            <button type="submit" title="Cake Away" aria-hidden="true">
-                <i class="fa-solid fa-cake-candles"></i> Let's get baking <i class="fa-solid fa-cake-candles"></i>
-            </button>
-
+            <div class="form-button-wrap">
+                <div class="form-button">
+                    <button type="submit" title="Cake Away" class="submit-button">
+                        <i class="fa-solid fa-cake-candles"></i> LET'S GET BAKING <i
+                            class="fa-solid fa-cake-candles"></i>
+                    </button>
+                </div>
+            </div>
         </form>
     </section>
     <hr>

@@ -11,13 +11,15 @@ h2 {
 h3,
 h4,
 h5,
-h6 {
+h6,
+label {
     font-family: 'Montserrat Alternates', sans-serif;
     color: #1c1b1a
 }
 
 body {
     font-family: 'Biryani', sans-serif;
+    background-color: #d7d7d7d4;
 }
 
 hr {
@@ -133,10 +135,10 @@ hr {
 /* Testimonial home page */
 
 .testimonial-carousel {
-    width:100%;
+    width: 100%;
     height: 100%;
     text-align: center;
-    padding:20px 0;
+    padding: 20px 0;
 
 }
 
@@ -144,10 +146,10 @@ hr {
     background-color: #d7d7d7;
     text-align: center;
     font-style: italic;
-    position:relative;
-    width:75%;
+    position: relative;
+    width: 75%;
     height: 50%;
-    display:inline-block;
+    display: inline-block;
 }
 
 /* Footer */
@@ -209,13 +211,13 @@ hr {
 /* About me page */
 
 .center-about {
-    width:80%;
+    width: 80%;
     margin: 5% auto;
 }
 
 .img-outer {
     width: 300px;
-    height:300px;
+    height: 300px;
     margin: auto;
 }
 
@@ -227,42 +229,120 @@ hr {
 }
 
 .about-me-text {
-    text-align:center;
+    text-align: center;
 }
 
 /* Gallery page */
 
 #cupcake-photos {
-    clear:both;
-    line-height:0;
+    clear: both;
+    line-height: 0;
     column-count: 2;
     column-gap: 4px;
 }
 
 #cupcake-photos img {
-    width:100%;
+    width: 100%;
     margin: 2px 0px;
 }
 
 #cake-photos {
-    clear:both;
-    line-height:0;
+    clear: both;
+    line-height: 0;
     column-count: 2;
     column-gap: 4px;
 }
 
 #cake-photos img {
-    width:100%;
+    width: 100%;
     margin: 2px 0px;
 }
 
 /* Form Page*/
 
+label {
+    font-weight: bold;
+}
+
 .form-img {
     background: url("../images/kid-eating-cake.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
-    zoom:12%;
+    zoom: 12%;
+}
+
+.form-section {
+    height: auto;
+
+}
+
+.contact-form {
+    background-color: #cfcece;
+    border: 1px solid #1c1b1a;
+    padding: 10px;
+}
+
+.contact-form h3 {
+    text-align: center;
+}
+
+.input {
+    background: #d7d7d7;
+    width: 90%;
+}
+
+.comment-input,
+.info-input {
+    background: #d7d7d7;
+    width: 95%;
+    word-wrap: break-word;
+    overflow-y: scroll;
+}
+
+.form-column {
+    float: left;
+    width: 50%;
+}
+
+.form-row::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.form-section .occassion,
+.form-section .additional {
+    padding-top: 10px;
+}
+
+.form-section h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.form-section ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    font-size: small;
+}
+
+.form-button-wrap {
+    background: linear-gradient(to right, #aade02, #09f8f3, #f50246);
+    position:relative;
+    max-width:180px;
+    padding:0 2px;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.submit-button {
+    color: #1c1b1a;
+    opacity:70%;
+    font-weight: bold;
 }
 
 /* Media Queries */
