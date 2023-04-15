@@ -185,6 +185,7 @@ hr {
 .footer-contact-info {
     padding-right: 5%;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .social-media {
