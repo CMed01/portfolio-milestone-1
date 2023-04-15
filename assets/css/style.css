@@ -358,20 +358,53 @@ li label {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    
+    #menu {
+        font-size: 90%;
+        letter-spacing: 2px;
+        display: inline-flex;
+        margin:0;
+        padding: 10% 0;
+        float:right;
+    }
+
+    #hero-outer {
+        height: 450px;
+    }
+    
     #hero-image {
         height: 450px;
-        width: 100%;
         background-size: 100%;
     }
+
+    #hero-text {
+        font-size:large;
+        bottom: 185px;
+        right: 10%;
+        left: 10%;
+    }
+
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
+    
+    #hero-outer {
+        height: 800px;
+    }
+    
     #hero-image {
-        height: 600px;
-        width: 100%;
-        background-size: auto;
+        height: 800px;
+        background-size: 100%;
+    }
+
+    #hero-text {
+        font-size: x-large;
+        bottom: 350px;
+        right: 10%;
+        left: 10%;
     }
 
     #cupcake-photos {
