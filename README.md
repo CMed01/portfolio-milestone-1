@@ -30,6 +30,9 @@
 
 ##### Form Page
 ![Cake and Bake Logo](assets/wireframes/form-wireframe.png)
+
+- Removed contacted section from form page as contact details present in the footer.
+
 <br>
 
 ### Surface

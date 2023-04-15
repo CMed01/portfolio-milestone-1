@@ -41,6 +41,7 @@
         </nav>
 
     </header>
+
     <hr>
 
     <section>
@@ -56,15 +57,43 @@
             <label for="email">Email Address</label>
             <input type="text" name="email_address" id="email" class="text-input" required>
 
-            <label for="pnumber">Last Name</label>
+            <label for="pnumber">Phone Number</label>
             <input type="number" name="pnumber" id="pnumber" class="number-input" required>
 
+            <label for="occassion">Occassion</label>
+
+            <div id="occassion">
+
+                <label for="o-birthday">Birthday</label>
+                <input type="radio" name="o-occassion" id="0-birthday" class="radio-input" value="yes" required>
+
+                <label for="o-wedding">Wedding</label>
+                <input type="radio" name="o-occassion" id="o-wedding" class="radio-input" value="yes">
+
+                <label for="o-other">Other</label>
+                <input type="radio" name="o-occassion" id="o-other" class="radio-input" value="yes">
+
+                <label for="o-if-other">Comment</label>
+                <input type="text" name="o-if-other" id="o-if-other" class="text-input"
+                    placeholder="If other, please provide further details">
+
+            </div>
+
+            <label for="serving-size">No. of servings</label>
+            <input type="number" name="serving-size" id="serving-size" class="number-input" required>
+
+            <label for="date-required">Date required</label>
+            <input type="date" name="date-required" id="date-required" class="date-input" required>
+
+            <label for="additional-info">Addtional Information</label>
+            <input type="text" name="additional_info"
+                placeholder="Let me know if you any other requests, such as size of cake, delivery or collection"
+                id="additional-info" class="info-input" required>
+
             <button type="submit" title="Cake Away" aria-hidden="true">
-                <i class="fa-solid fa-cake-candles"></i>
-                <span class="sr-only">Cake Away</span>
+                <span class="sr-only"></span><i class="fa-solid fa-cake-candles"></i> Cake Away</span>
             </button>
 
-            <input type="submit" value="Cake Away" class="get-in-touch-button">
         </form>
     </section>
     <hr>
