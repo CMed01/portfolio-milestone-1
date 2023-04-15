@@ -269,6 +269,10 @@ label {
     font-weight: bold;
 }
 
+li label {
+    font-weight:lighter;
+}
+
 .form-img {
     background: url("../images/kid-eating-cake.jpg") no-repeat center center;
     height: 100%;
@@ -330,7 +334,6 @@ label {
     list-style: none;
     padding: 0;
     margin-top: 0;
-    font-size: small;
 }
 
 .form-button-wrap {
