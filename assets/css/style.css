@@ -34,6 +34,8 @@ hr {
 #navbar {
     background-color: #1c1b1a;
     padding: 10px;
+    height: auto;
+    overflow: hidden;
 }
 
 .logo {
@@ -41,16 +43,18 @@ hr {
 }
 
 #menu {
-    font-size: 50%;
+    font-size: 60%;
     letter-spacing: 2px;
-    display: inline-block;
-    position: absolute;
-    right: 5%;
-
+    display: inline-flex;
+    margin:0;
+    padding: 10% 0;
+    float:right;
 }
 
 #menu li {
     list-style: none;
+    padding-right:10px;
+    word-spacing: 5px;
 }
 
 .active {
