@@ -349,10 +349,8 @@ li label {
 
 .submit-button {
     color: #1c1b1a;
-    opacity:70%;
     font-weight: bold;
 }
-
 /* Media Queries */
 
 /* Extra small devices (phones, 600px and down) */
@@ -383,10 +381,20 @@ li label {
     #cake-photos {
         column-count: 4;
     }
+
+   
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    
+    .submit-button {
+        color: #1c1b1a;
+        opacity:70%;
+        font-weight: bold;
+    }
+    
+}
 
     /* .cupcake-index-img {
         opacity: 1;
@@ -415,8 +423,6 @@ li label {
     .image-container:hover .description {
         opacity:1;
     } */
-
-}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
