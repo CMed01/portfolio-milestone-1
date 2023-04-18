@@ -77,13 +77,13 @@ hr {
     background-image: linear-gradient(to right, #aade02 0%, #aade02 33%, #09f8f3 33%, #09f8f3 66%, #f50246 66%, #f50246 100%);
     background-size: 0 100%;
     background-repeat: no-repeat;
-    transition: 1s;
 }
 
 #menu a:hover {
     background-size: 100% 100%;
     color: #1c1b1a;
     font-weight: bold;
+    transition: 1s;
 }
 
 
