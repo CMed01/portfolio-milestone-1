@@ -380,28 +380,7 @@ li label {
         left: 10%;
     }
 
-    .index-cakes {
-        display: inline-flex;
-        padding-left:5%;
-    }
-
-    .image-container {
-        width: 45%;
-        height: 300px;
-        border-radius: 50%;
-    }
-
-    .cupcake-index-img {
-        width: 100%;
-        height: 300px;
-        border-radius: 50%;
-    }
-
-    .description {
-        width: 45%;
-        height: 300px;
-        padding:0 5%;
-    }
+    
 
 }
 
@@ -429,26 +408,12 @@ li label {
         left: 10%;
     }
 
-    .image-container {
-        width: 45%;
-        max-width:350px;
-        height: 350px;
-        border-radius: 50%;
+    .index-cakes {
+        display: inline-flex;
+        padding-left:5%;
     }
 
-    .cupcake-index-img {
-        width: 100%;
-        max-width:350px;
-        height: 350px;
-        border-radius: 50%;
-    }
-
-    .description {
-        width: 45%;
-        height: 350px;
-        padding:0 5%;
-    }
-
+   
 
     #cupcake-photos {
         column-count: 4;
