@@ -38,6 +38,7 @@ hr {
     background-color: #1c1b1a;
     padding: 10px;
     height: auto;
+    max-height:120px;
     overflow: hidden;
 }
 
@@ -51,9 +52,10 @@ hr {
     font-size: 60%;
     letter-spacing: 2px;
     display: inline-flex;
-    margin: 0;
-    padding: 10% 0;
+    padding-left:0;
+    margin-top: 10%;
     float: right;
+    max-height:120px;
 }
 
 #menu li {
@@ -380,6 +382,7 @@ li label {
 
     #menu {
         font-size: 90%;
+        margin: 50px 0;
     }
 
     #hero-outer {
@@ -457,6 +460,7 @@ li label {
 
     #menu {
         font-size: 150%;
+        margin: 40px 0;
     }
 
     #menu li {
