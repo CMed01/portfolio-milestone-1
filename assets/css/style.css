@@ -22,14 +22,14 @@ body {
     background-color: #d7d7d7d4;
     max-width: 1500px;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
 }
 
 hr {
     border: 0;
     height: 5px;
     background-image: linear-gradient(to right, #aade02, #09f8f3, #f50246);
-    margin: 10px 0;
+    margin: 10px 5px;
 }
 
 /* Navigation Bar */
@@ -38,13 +38,13 @@ hr {
     background-color: #1c1b1a;
     padding: 10px;
     height: auto;
-    max-height:120px;
+    max-height: 120px;
     overflow: hidden;
 }
 
 .logo {
     width: 20%;
-    max-width:120px;
+    max-width: 120px;
     aspect-ratio: 1;
 }
 
@@ -52,10 +52,10 @@ hr {
     font-size: 60%;
     letter-spacing: 2px;
     display: inline-flex;
-    padding-left:0;
+    padding-left: 0;
     margin-top: 10%;
     float: right;
-    max-height:120px;
+    max-height: 120px;
 }
 
 #menu li {
@@ -122,8 +122,10 @@ hr {
 /* Cake options home page */
 
 #cake-options {
-    width: 100%;
+    max-width: 95%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cake-image-outer {
@@ -145,18 +147,24 @@ hr {
 
 .cupcake-image {
     background: url("../images/vanilla-cupcake-home.png") no-repeat center;
-    background-size:cover;
+    background-size: cover;
 }
 
 .cakecicles-image {
     background: url("../images/cakecicles-panda.png") no-repeat center;
-    background-size:cover;
-    }
+    background-size: cover;
+}
 
 .description {}
 
 
 /* Testimonial home page */
+
+.testimonial {
+    max-width:700px;
+    margin-right:auto;
+    margin-left:auto;
+}
 
 .testimonial-carousel {
     width: 100%;
@@ -433,15 +441,27 @@ li label {
         width: 50%;
     }
 
+    .index-cakes {
+        position: relative;
+        max-height:700px;
+        max-width:700px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:50px;
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius:10%;
+
+    }
+
     .description {
         width: 45%;
         height: 350px;
-        padding: 0 5%;
+        position:absolute;
+        right:0;
+        top:0;
     }
-    
-    .index-cupcakes {
 
-    }
 
 
     #cupcake-photos {
