@@ -20,6 +20,9 @@ label {
 body {
     font-family: 'Biryani', sans-serif;
     background-color: #d7d7d7d4;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 hr {
@@ -117,11 +120,15 @@ hr {
 #cake-options {
     width: 100%;
     height: auto;
+    max-width: 1500px;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 .cake-image-outer {
     height: 350px;
     width: 100%;
+    
     overflow: hidden;
     position: relative;
 }
