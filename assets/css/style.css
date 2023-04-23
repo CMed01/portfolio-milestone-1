@@ -43,6 +43,8 @@ hr {
 
 .logo {
     width: 20%;
+    max-width:120px;
+    aspect-ratio: 1;
 }
 
 #menu {
@@ -120,15 +122,11 @@ hr {
 #cake-options {
     width: 100%;
     height: auto;
-    max-width: 1500px;
-    margin-right:auto;
-    margin-left:auto;
 }
 
 .cake-image-outer {
     height: 350px;
     width: 100%;
-    
     overflow: hidden;
     position: relative;
 }
