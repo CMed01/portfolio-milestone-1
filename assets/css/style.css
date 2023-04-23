@@ -189,7 +189,7 @@ hr {
 #footer {
     border-top: 2px solid #aade02;
     background-color: #1c1b1a;
-    height: auto;
+    max-height:200px;
     font-size: xx-small;
 }
 
@@ -205,9 +205,9 @@ hr {
 }
 
 .footer-logo {
-    height: 20%;
-    width: 20%;
-    padding: 5%;
+    padding: 10px;
+    max-width:120px;
+    aspect-ratio: 1;
 }
 
 .footer-contact-info {
