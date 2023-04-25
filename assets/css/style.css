@@ -190,7 +190,7 @@ hr {
     border-top: 2px solid #aade02;
     background-color: #1c1b1a;
     max-height:200px;
-    font-size: xx-small;
+    font-size:x-small;
 }
 
 #footer h3 {
@@ -219,7 +219,7 @@ hr {
 .social-media {
     border-bottom: 2px solid #f50246;
     border-top: 2px solid #09f8f3;
-    font-size: x-small;
+    font-size:small;
     display: flex;
     justify-content: space-between;
     padding: 1%;
@@ -273,11 +273,12 @@ hr {
 
 /* Gallery page */
 
-#cupcake-photos {
+#cake-photos {
     clear: both;
     line-height: 0;
     column-count: 2;
     column-gap: 4px;
+    margin: 10px
 }
 
 #cupcake-photos img {
@@ -285,12 +286,6 @@ hr {
     margin: 2px 0px;
 }
 
-#cake-photos {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 4px;
-}
 
 #cake-photos img {
     width: 100%;
@@ -516,10 +511,6 @@ li label {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
-    #menu {
-        font-size: 200%;
-    }
 
     #menu li {
         padding-right: 20px;
