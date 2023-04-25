@@ -32,6 +32,13 @@ hr {
     margin: 10px 5px;
 }
 
+/* General style */
+
+.auto-margin {
+    margin-left:auto;
+    margin-right:auto;
+}
+
 /* Navigation Bar */
 
 #navbar {
@@ -161,9 +168,9 @@ hr {
 /* Testimonial home page */
 
 .testimonial {
-    max-width:700px;
-    margin-right:auto;
-    margin-left:auto;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .testimonial-carousel {
@@ -189,8 +196,8 @@ hr {
 #footer {
     border-top: 2px solid #aade02;
     background-color: #1c1b1a;
-    max-height:200px;
-    font-size:x-small;
+    max-height: 200px;
+    font-size: x-small;
 }
 
 #footer h3 {
@@ -206,7 +213,7 @@ hr {
 
 .footer-logo {
     padding: 10px;
-    max-width:120px;
+    max-width: 120px;
     aspect-ratio: 1;
 }
 
@@ -219,7 +226,7 @@ hr {
 .social-media {
     border-bottom: 2px solid #f50246;
     border-top: 2px solid #09f8f3;
-    font-size:small;
+    font-size: small;
     display: flex;
     justify-content: space-between;
     padding: 1%;
@@ -245,15 +252,15 @@ hr {
 
 .center-about {
     width: 100%;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img-outer {
     width: 300px;
     height: 300px;
     margin: auto;
-    padding:10px;
+    padding: 10px;
 }
 
 .about-me-img {
@@ -265,10 +272,10 @@ hr {
 
 .about-me-text {
     text-align: center;
-    max-width:700px;
-    margin-left:auto;
-    margin-right:auto;
-    padding:30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
 }
 
 /* Gallery page */
@@ -312,7 +319,7 @@ li label {
 .form-section {
     height: auto;
     padding: 10px;
-
+    max-width: 900px;
 }
 
 .contact-form {
@@ -385,7 +392,8 @@ li label {
 /* Map */
 
 #map {
-    padding:10px;
+    padding: 10px;
+    max-width:900px;
 }
 
 /* Media Queries */
@@ -458,23 +466,23 @@ li label {
 
     .index-cakes {
         position: relative;
-        max-height:700px;
-        max-width:700px;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:50px;
+        max-height: 700px;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
         background-color: #ffffff;
         padding: 10px;
-        border-radius:10%;
+        border-radius: 10%;
 
     }
 
     .description {
         width: 45%;
         height: 350px;
-        position:absolute;
-        right:0;
-        top:0;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 
     .img-outer {
