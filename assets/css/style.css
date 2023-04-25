@@ -421,6 +421,10 @@ li label {
         width: 400px;
         height: 400px;
     }
+
+    .form-img {
+        zoom: 15%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -486,6 +490,9 @@ li label {
         column-count: 4;
     }
 
+    .form-img {
+        zoom: 18%;
+    }
 
 }
 
