@@ -280,7 +280,7 @@ hr {
 
 /* Gallery page */
 
-#cake-photos {
+.cake-photos {
     clear: both;
     line-height: 0;
     column-count: 2;
@@ -288,13 +288,8 @@ hr {
     margin: 10px
 }
 
-#cupcake-photos img {
-    width: 100%;
-    margin: 2px 0px;
-}
 
-
-#cake-photos img {
+.cake-photos img {
     width: 100%;
     margin: 2px 0px;
 }
