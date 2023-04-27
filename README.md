@@ -192,7 +192,7 @@ Three fonts were used throughout this website
 
 ### Validator testing
 
-- [HTML validator](https://validator.w3.org/)
+- [W3C Markup Validation Service](https://validator.w3.org/)
 
 | __Page__ | __Outcome of test__                                         |
 | -------- | ----------------------------------------------------------- |
@@ -203,8 +203,11 @@ Three fonts were used throughout this website
 
 <br>
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
+| CSS File  | Outcome of test                  |
+| --------- | -------------------------------- |
+| style.css | Congratulations! No Error Found. [Result](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fcmed01.github.io%2FPortfolio-Milestone-1%2F&usermedium=all&vextwarning=&warning=1) |
 
 
 
