@@ -52,7 +52,6 @@ hr {
 .logo {
     width: 20%;
     max-width: 120px;
-    aspect-ratio: 1;
 }
 
 #menu {
@@ -207,7 +206,6 @@ hr {
 .footer-logo {
     padding: 10px;
     max-width: 120px;
-    aspect-ratio: 1;
 }
 
 .footer-contact-info {
