@@ -1,4 +1,4 @@
-![Cake and Bake Logo](assets/readme-attachments/cab-logo-black-color1-small.png)
+![Cake and Bake Logo](readme-attachments/cab-logo-black-color1-small.png)
 
 <br>
 
@@ -76,19 +76,19 @@ Based on content required in the scope of this project, this website will consis
 ### __Skelton (Wireframes)__
 
 1. #### Index Page
-![Index Page Wireframe](assets/wireframes/index-wireframe.png)
+![Index Page Wireframe](readme-attachments/wireframes/index-wireframe.png)
 <br>
 
 2. #### About Page
-![Cake and Bake Logo](assets/wireframes/about-wireframe.png)
+![Cake and Bake Logo](readme-attachments/wireframes/about-wireframe.png)
 <br>
 
 3. #### Gallery Page
-![Cake and Bake Logo](assets/wireframes/gallery-wireframe.png)
+![Cake and Bake Logo](readme-attachments/wireframes/gallery-wireframe.png)
 <br>
 
 4. #### Form Page
-![Cake and Bake Logo](assets/wireframes/form-wireframe.png)
+![Cake and Bake Logo](readme-attachments/wireframes/form-wireframe.png)
 
 - Removed contacted section from form page as contact details present in the footer.
 
@@ -110,23 +110,43 @@ Three fonts were used throughout this website
 #### __Features__
 
 * Navigation bar
-    - The naivgation bar has a consistent look across all pages. It should contain a logo of the company and links to all the other pages in the website. The menu link of the active page should contain a bottom border and when hovered a dyanmaic colour change should occur. The colour of these should be consistent with the colour scheme of the website.
+    - The naivgation bar has a consistent look across all pages. It contains a logo of the company and links to all the other pages in the website. The menu link of the active page contains a bottom border and when hovered a dyanmaic colour change should occur. The colour of these should be consistent with the colour scheme of the website.
+
+<br>
+
+![Navbar](readme-attachments/navbar-img.png)
+
+<br>
 
 * Home page
     - The home page includes a photograph with text overlay both of which simply provide an overview of the business and its goals. 
 
 * Footer
-    - The footer should include the business logo, contact details (phone, address, email) and links to all active social media pages.
+    - The footer includes the business logo, contact details (phone, address, email) and links to all active social media pages (FaceBook and Instagram).
+<br>
+
+![Footer](readme-attachments/footer-img.png)
+
+<br>
 
 * About me page
-    - Continued use of the colour scheme throughout. The about me page should provide a action image with a biography.
+    - Continued use of the colour scheme throughout. The about me page provides a action image with a biography.
+
+<br>
+
+![About me page](readme-attachments/about-me-img.png)
+
+<br>
 
 * Gallery page
-    - The gallery page should contain stand out photos of completed baking projects, showcasing what is on offer. There should be a minimum of two sections, each with at least 8 photos. The layout will be resposive initially with 2 columns on smaller screens progressing to 4 columns on larger devices.
+    - The gallery page contains stand out photos of completed baking projects, showcasing what is on offer. There is a minimum of two sections, each with at least 8 photos. The layout will be resposive initially with 2 columns on smaller screens progressing to 4 columns on larger devices.
 
 * Contact page
-    - The contact page should include an interative map of the location of the business and a contact me form.
+    - The contact page includes an interative map of the location of the business and a contact me form.
     - The form will consist of required and optional inputs that will provide the foundation information required by the business.
+
+
+
 
 * Future
     - PLEASE STATE ANY FUTURE FEATURES THAT WOULD BE GREAT TO IMPLEMENT IN THE FUTURE
@@ -151,3 +171,5 @@ Three fonts were used throughout this website
 #### __Content__
 #### __Code__
 #### __Acknowledegements__
+
+[def]: readme-attachments/navbar.png
