@@ -196,10 +196,10 @@ Three fonts were used throughout this website
 
 | __Page__ | __Outcome of test__                                         |
 | -------- | ----------------------------------------------------------- |
-| Index    | Document checking completed. No errors or warnings to show. |
-| About me | Document checking completed. No errors or warnings to show. |
-| Gallery  | Document checking completed. No errors or warnings to show. |
-| Contact  | Document checking completed. No errors or warnings to show. |
+| Index    | Document checking completed. No errors or warnings to show. [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmed01.github.io%2FPortfolio-Milestone-1%2Findex.html) |
+| About me | Document checking completed. No errors or warnings to show. [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmed01.github.io%2FPortfolio-Milestone-1%2Fabout.html) |
+| Gallery  | Document checking completed. No errors or warnings to show. [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmed01.github.io%2FPortfolio-Milestone-1%2Fgallery.html) |
+| Contact  | Document checking completed. No errors or warnings to show. [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmed01.github.io%2FPortfolio-Milestone-1%2Fcontact.html)|
 
 <br>
 
@@ -209,9 +209,46 @@ Three fonts were used throughout this website
 | --------- | -------------------------------- |
 | style.css | Congratulations! No Error Found. [Result](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fcmed01.github.io%2FPortfolio-Milestone-1%2F&usermedium=all&vextwarning=&warning=1) |
 
+<br>
 
+- Lighthouse testing using [PageSpeed Insights](https://pagespeed.web.dev/)
+    - Images can be converted to next-gen formats to improve performance on mobile devices
+    - [Results](https://pagespeed.web.dev/analysis/https-cmed01-github-io-Portfolio-Milestone-1/64l0tgdbae?form_factor=mobile)
+
+| __Device__  | __Performance__ | __Accessibility__ | __Best Practice__ | __SEO__  |
+| ------- | ----------- | ------------- | ------------- | ---- |
+| Mobile  | 71%         | 100%          | 100%          | 97%  |
+| Desktop | 95%         | 100%          | 100%          | 100% |
+
+<br>
+
+- Testing
 
 ### __Deployement__
+
+#### __How this site was deployed__
+
+1. In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu
+
+2. From the source section drop-down menu, select the Master Branch
+
+3. Page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+
+4. Any changes pushed to the master branch will automatically start a workflow to build and deploy the page with the update code.
+
+The link to the live website can be found here - [Cake and Bake](https://cmed01.github.io/Portfolio-Milestone-1/)
+
+#### __How to clone the repository__
+
+1. Go to the https://github.com/CMed01/Portfolio-Milestone-1 repository on GitHub.
+
+2. Click the "Code" button to the right of the screen, click HTTPs and copy the link there
+
+3. Open a GitBash terminal 
+
+4. Change the working directory to the location where you want the clone directory.
+
+5. On the command line, type "git clone" then paste in the copied url (https://github.com/CMed01/Portfolio-Milestone-1.git) and press the Enter key to begin the clone process
 
 ### __Credits__
 #### __Content__
