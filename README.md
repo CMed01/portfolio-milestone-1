@@ -97,7 +97,7 @@ Based on content required in the scope of this project, this website will consis
 ### __Surface (including Features)__
 
 #### __Color scheme__
-![Cake and Bake Logo](assets/images/color-scheme.png)
+![Color Scheme](readme-attachments/color-scheme.png)
 
 #### __Typography__
 Three fonts were used throughout this website
@@ -119,7 +119,13 @@ Three fonts were used throughout this website
 <br>
 
 * Home page
-    - The home page includes a photograph with text overlay both of which simply provide an overview of the business and its goals. 
+    - The home page includes a hero image with text overlay both of which simply provide an overview of the business and its goals. 
+
+<br>
+
+![Hero Image](readme-attachments/hero-img.png)
+
+<br>
 
 * Footer
     - The footer includes the business logo, contact details (phone, address, email) and links to all active social media pages (FaceBook and Instagram).
@@ -139,14 +145,23 @@ Three fonts were used throughout this website
 <br>
 
 * Gallery page
-    - The gallery page contains stand out photos of completed baking projects, showcasing what is on offer. There is a minimum of two sections, each with at least 8 photos. The layout will be resposive initially with 2 columns on smaller screens progressing to 4 columns on larger devices.
+    - The gallery page contains stand out photos of completed baking projects, showcasing what is on offer. There is a minimum of two sections, each 8 photos. The layout will be resposive initially with 2 columns on smaller screens progressing to 4 columns on larger devices.
+
+<br>
+
+![Gallery responsiveness](readme-attachments/gallery-responsive-img.png)
+
+<br>
 
 * Contact page
     - The contact page includes an interative map of the location of the business and a contact me form.
     - The form will consist of required and optional inputs that will provide the foundation information required by the business.
 
+<br>
 
+![Contact form and interactive map](readme-attachments/contact-page-img.png)
 
+<br>
 
 * Future
     - PLEASE STATE ANY FUTURE FEATURES THAT WOULD BE GREAT TO IMPLEMENT IN THE FUTURE
