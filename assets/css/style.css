@@ -300,7 +300,7 @@ li label {
     background: url("../images/kid-eating-cake.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
-    zoom: 12%;
+    background-size: cover;
 }
 
 .form-section {
@@ -425,10 +425,6 @@ li label {
         width: 400px;
         height: 400px;
     }
-
-    .form-img {
-        zoom: 15%;
-    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -486,10 +482,6 @@ li label {
 
     .cake-photos {
         column-count: 4;
-    }
-
-    .form-img {
-        zoom: 18%;
     }
 }
 

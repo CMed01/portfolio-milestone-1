@@ -120,6 +120,8 @@ Three fonts were used throughout this website
 
 * Home page
     - The home page includes a hero image with text overlay both of which simply provide an overview of the business and its goals. 
+    - Information regarding the cake options that can be provided are in sections below the hero image
+    - At the bottom of the page there is a testimonial section, providing recent feedback on the products available.
 
 <br>
 
@@ -164,11 +166,19 @@ Three fonts were used throughout this website
 <br>
 
 * Future
-    - PLEASE STATE ANY FUTURE FEATURES THAT WOULD BE GREAT TO IMPLEMENT IN THE FUTURE
-
+    - Improved testimonials section on the home page to include a carosel of feedback (at present only one testimonial present)
+    - The navbar funcationaility can be improved so that is remains at the top of the screen when scrolling down the page.
 <br>
 
 ### __Technologies__
+
+### Languages
+
+- HTML
+- CSS
+
+### Frameworks, programs and libraries
+
 - [Canva](https://www.canva.com/) - Used to re-create Cake and Bake logos.
 - [Figma](https://www.figma.com/) - Used to create wireframes for website.
 - [Coolers](https://coolors.co/) - Used to create colour scheme for website.
@@ -179,6 +189,24 @@ Three fonts were used throughout this website
 - [Bitly](https://app.bitly.com/) - Used to create bitly links for long URLs.
 
 ### __Testing__
+
+### Validator testing
+
+- [HTML validator](https://validator.w3.org/)
+
+| __Page__ | __Outcome of test__                                         |
+| -------- | ----------------------------------------------------------- |
+| Index    | Document checking completed. No errors or warnings to show. |
+| About me | Document checking completed. No errors or warnings to show. |
+| Gallery  | Document checking completed. No errors or warnings to show. |
+| Contact  | Document checking completed. No errors or warnings to show. |
+
+<br>
+
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+
+
 
 ### __Deployement__
 
