@@ -130,8 +130,6 @@ hr {
 #cake-options {
     max-width: 95%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .cake-image-outer {
@@ -167,8 +165,6 @@ hr {
 
 .testimonial {
     max-width: 700px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .testimonial-carousel {
@@ -246,8 +242,6 @@ hr {
 
 .center-about {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .img-outer {
@@ -266,8 +260,6 @@ hr {
 .about-me-text {
     text-align: center;
     max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 30px;
 }
 
@@ -459,9 +451,9 @@ li label {
         position: relative;
         max-height: 700px;
         max-width: 700px;
-        margin-left: auto;
-        margin-right: auto;
         margin-top: 50px;
+        margin-left:auto;
+        margin-right:auto;
         background-color: #ffffff;
         padding: 10px;
         border-radius: 10%;
