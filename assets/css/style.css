@@ -228,17 +228,15 @@ hr {
     border-top: 2px solid #09f8f3;
     font-size: small;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 1%;
 }
 
 .company-footer {
-    padding-left: 2%;
-    color: #ffffff;
+      color: #ffffff;
 }
 
 .social-footer {
-    padding-right: 2%;
     word-spacing: 5px;
 }
 
