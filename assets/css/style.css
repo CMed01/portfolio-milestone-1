@@ -330,6 +330,8 @@ li label {
 .input {
     background: #d7d7d7;
     width: 90%;
+    padding: 5px 10px 2px 10px;
+    font-family: inherit;
 }
 
 .comment-input,
@@ -338,6 +340,8 @@ li label {
     width: 95%;
     word-wrap: break-word;
     overflow-y: scroll;
+    padding:10px;
+    font-family: inherit;
 }
 
 .form-column {
