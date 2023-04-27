@@ -100,7 +100,6 @@ hr {
     transition: 1s;
 }
 
-
 /* Hero Image */
 
 #hero-outer {
@@ -164,7 +163,6 @@ hr {
 
 .description {}
 
-
 /* Testimonial home page */
 
 .testimonial {
@@ -178,7 +176,6 @@ hr {
     height: 100%;
     text-align: center;
     padding: 20px 0;
-
 }
 
 .testimonial-comment {
@@ -245,7 +242,6 @@ hr {
     text-decoration: none;
 }
 
-
 /* About me page */
 
 .center-about {
@@ -285,7 +281,6 @@ hr {
     column-gap: 4px;
     margin: 10px
 }
-
 
 .cake-photos img {
     width: 100%;
@@ -400,7 +395,6 @@ li label {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
     #menu {
         font-size: 90%;
         margin: 50px 0;
@@ -435,7 +429,6 @@ li label {
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-
     #menu {
         font-size: 100%;
     }
@@ -471,7 +464,6 @@ li label {
         background-color: #ffffff;
         padding: 10px;
         border-radius: 10%;
-
     }
 
     .description {
@@ -498,12 +490,10 @@ li label {
     .form-img {
         zoom: 18%;
     }
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
     #menu {
         font-size: 150%;
         margin: 40px 0;
@@ -518,14 +508,11 @@ li label {
         opacity: 70%;
         font-weight: bold;
     }
-
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
     #menu li {
         padding-right: 20px;
     }
-
 }
