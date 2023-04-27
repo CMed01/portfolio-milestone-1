@@ -484,11 +484,7 @@ li label {
         height: 500px;
     }
 
-    #cupcake-photos {
-        column-count: 4;
-    }
-
-    #cake-photos {
+    .cake-photos {
         column-count: 4;
     }
 
