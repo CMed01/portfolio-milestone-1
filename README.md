@@ -21,6 +21,13 @@ Github repository can be viewed here - [CMed01/Portfolio-Milestone-1](https://gi
 
 ![Cake and Bake responsive test](readme-attachments/am-i-responsive.png)
 
+## Table of Contents
+* [User Experience](#user-experience)
+* [Technologies](#technologies)
+* [Testing](#testing)
+* [Deployment](#deployement)
+* [Credits](#credits)
+
 ## __User Experience__
 
 ### __Strategy__
@@ -53,6 +60,8 @@ Reasons for the site
     1. As a frequent user, I want to be able to access and view the gallery and the business's social media links. Both will allow me to keep up to date with new baking projects.
     2. As a frequent user, I want to be able to contact the business and request a service.
 
+<br>
+
 ### __Scope__
 
 Functionally, the site must be:
@@ -66,6 +75,8 @@ Content should include the following:
 * Link to social media pages.
 * Provide a simple process to get in touch by phone, email, social media or via a contact form.
 
+<br>
+
 ### __Structure__
 
 Based on content required in the scope of this project, this website will consist of 4 pages
@@ -74,6 +85,8 @@ Based on content required in the scope of this project, this website will consis
 * About me page - action photo of Meena and information about who she is and her story behind baking.
 * Gallery page - a selection of photos, ideally in sections, showcasing her work.
 * Contact page - location of the business and contact form.
+
+<br>
 
 ### __Skelton (Wireframes)__
 
@@ -108,6 +121,8 @@ Changes to the design were made during the build process in order to meet the pr
 
 #### __Color scheme__
 ![Color Scheme](readme-attachments/color-scheme.png)
+
+<br>
 
 #### __Typography__
 Three fonts were used throughout this website
@@ -181,14 +196,14 @@ Three fonts were used throughout this website
 
 <br>
 
-### __Technologies__
+## __Technologies__
 
-### Languages
+### __Languages__
 
 - HTML
 - CSS
 
-### Frameworks, programs and libraries
+### __Frameworks, programs and libraries__
 
 - [Canva](https://www.canva.com/) - Used to recreate Cake and Bake logos.
 - [Figma](https://www.figma.com/) - Used to create wireframes for this website.
@@ -200,9 +215,11 @@ Three fonts were used throughout this website
 - [Bitly](https://app.bitly.com/) - Used to create bitly links for long URLs.
 - [Am I Responsive?](https://ui.dev/amiresponsive) - Used to create an image of website on various screen sizes.
 
-### __Testing__
+<br>
 
-### Validator testing
+## __Testing__
+
+### __Validator testing__
 
 - __[W3C Markup Validation Service](https://validator.w3.org/)__
 
@@ -234,7 +251,21 @@ Three fonts were used throughout this website
 
 <br>
 
-- __Testing__
+### __Browser Compatability__
+- Browser testing was completed on the following browsers using [SauceLabs](https://saucelabs.com/)
+    - Chrome Version 112.0.5615.138 (Official Build) (64-bit)
+    - Firefox Version 111.0 (64-bit) 
+    - Edge Version 112.0.1722.34 (Official Build) (64-bit)
+    - Safari Version 16.1 (18614.2.9.1.12) (accessed via macOS Ventura 13) 
+
+<br>
+
+### __Test Cases and Results__
+
+- The table below details all the test cases that were used.
+
+<br>
+
 
 | Test no. | Test Label                            | Test Action                                                                                                                                                                                                                    | Expected Outcome                                                                                                                                                                                                                                                                                                                                                                                                      | Test Outcome |
 | -------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
@@ -260,9 +291,11 @@ Three fonts were used throughout this website
 | T20      | UX - Responsivness gallery page       | Change the width screen sizes to the following:<br>a. Extra small devices - <600px<br>b. Small devices - 600px to 768px<br>c. Medium devices - 768px to 992px<br>d. Large devices - 992px to 1200px<br>e. Extra large devices - >1200px | 1\. Both photo sections will contain 2 columns of photos with 8 photos in each and this will change to 4 columns of photos when width is >768px<br>2\. Max width of screen will be 1500px and the page will remain centralised. Photos will maintain an aspect ratio.                                                                                                                                                       | Pass         |
 | T21      | UX - Responsivness contact page       | Change the width screen sizes to the following:<br>a. Extra small devices - <600px<br>b. Small devices - 600px -768px<br>c. Medium devices - 768px to 992px<br>d. Large devices - 992px to 1200px<br>e. Extra large devices - >1200px | 1\. Image of a child eating cake will increase in size as the width increases. Once at 600px and another at 768px<br>2\. Form will remain centralise throughout with a max width of 900px<br>3\. Layout of form will remain constant throughout width increases<br>4\. Map will increase proportionally in size with a max width of 900 px<br>5\. Max width of screen will be 1500px and the page will remain centralised. | Pass         |
 
-### __Deployement__
+<br>
 
-#### __How this site was deployed__
+## __Deployement__
+
+### __How this site was deployed__
 
 1. In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu
 
@@ -274,7 +307,7 @@ Three fonts were used throughout this website
 
 The link to the live website can be found here - [Cake and Bake](https://cmed01.github.io/Portfolio-Milestone-1/)
 
-#### __How to clone the repository__
+### __How to clone the repository__
 
 1. Go to the https://github.com/CMed01/Portfolio-Milestone-1 repository on GitHub.
 
@@ -286,21 +319,21 @@ The link to the live website can be found here - [Cake and Bake](https://cmed01.
 
 5. On the command line, type "git clone" then paste in the copied url (https://github.com/CMed01/Portfolio-Milestone-1.git) and press the Enter key to begin the clone process
 
-### __Credits__
-#### __Content__
+## __Credits__
+### __Content__
 
 - All content was written by the developer
 
-#### __Code__
+### __Code__
 
 - Code on how to add a Favicon to the website was based on example code from [W3Schools HTML Favicon](https://www.w3schools.com/html/html_favicon.asp#:~:text=To%20add%20a%20favicon%20to,is%20%22favicon.ico%22.)
 - Code on how to add a bottom border to the menu items in the navbar was based on example code from [Stack Overflow -Can we set a gradient color to border-bottom property?](https://stackoverflow.com/questions/23751274/can-we-set-a-gradient-color-to-border-bottom-property)
 
-#### __Media__
+### __Media__
 
 - The logo was adapted from the official [Cake and Bake](https://www.instagram.com/cakeandbakeldn/) business owner with their permission.
 - The colours used across this project were taken from the Cake and Bake logo.
 
-#### __Acknowledegements__
+### __Acknowledegements__
 
 I would like to express my gratitude to my mentor Brian Macharia, for his guidance, support and encouragement throughout my first project. I would also like to thank Meena Rhodes the owner of Cake and Bake who has allowed me to use their professional content in this project
