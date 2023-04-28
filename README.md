@@ -198,6 +198,7 @@ Three fonts were used throughout this website
 - [Fontjoy](https://fontjoy.com/) - Used to create font pairings.
 - [Font Awesome](https://fontawesome.com/) - Used to add icons to enhance user experience.
 - [Bitly](https://app.bitly.com/) - Used to create bitly links for long URLs.
+- [Am I Responsive?](https://ui.dev/amiresponsive) - Used to create an image of website on various screen sizes.
 
 ### __Testing__
 
