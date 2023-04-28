@@ -39,8 +39,6 @@ Reasons for the site
 * Showcase successful baking projects
 * To help clients get in touch with her
 
-<br>
-
 #### __User Stories__
 
 - #### First Time Visitor Goals
@@ -200,20 +198,20 @@ Three fonts were used throughout this website
 
 ### __Languages__
 
-- HTML
-- CSS
+* HTML
+* CSS
 
 ### __Frameworks, programs and libraries__
 
-- [Canva](https://www.canva.com/) - Used to recreate Cake and Bake logos.
-- [Figma](https://www.figma.com/) - Used to create wireframes for this website.
-- [Coolers](https://coolors.co/) - Used to create a colour scheme for this website.
-- [Stack Overflow](https://stackoverflow.com/) - Used to troubleshoot HTML and CSS coding queries.
-- [Google Fonts](https://fonts.google.com/) - Used to apply fonts to this website.
-- [Fontjoy](https://fontjoy.com/) - Used to create font pairings.
-- [Font Awesome](https://fontawesome.com/) - Used to add icons to enhance user experience.
-- [Bitly](https://app.bitly.com/) - Used to create bitly links for long URLs.
-- [Am I Responsive?](https://ui.dev/amiresponsive) - Used to create an image of website on various screen sizes.
+* [Canva](https://www.canva.com/) - Used to recreate Cake and Bake logos.
+* [Figma](https://www.figma.com/) - Used to create wireframes for this website.
+* [Coolers](https://coolors.co/) - Used to create a colour scheme for this website.
+* [Stack Overflow](https://stackoverflow.com/) - Used to troubleshoot HTML and CSS coding queries.
+* [Google Fonts](https://fonts.google.com/) - Used to apply fonts to this website.
+* [Fontjoy](https://fontjoy.com/) - Used to create font pairings.
+* [Font Awesome](https://fontawesome.com/) - Used to add icons to enhance user experience.
+* [Bitly](https://app.bitly.com/) - Used to create bitly links for long URLs.
+* [Am I Responsive?](https://ui.dev/amiresponsive) - Used to create an image of website on various screen sizes.
 
 <br>
 
@@ -221,7 +219,7 @@ Three fonts were used throughout this website
 
 ### __Validator testing__
 
-- __[W3C Markup Validation Service](https://validator.w3.org/)__
+* __[W3C Markup Validation Service](https://validator.w3.org/)__
 
 | __Page__ | __Outcome of test__                                         |
 | -------- | ----------------------------------------------------------- |
@@ -232,7 +230,7 @@ Three fonts were used throughout this website
 
 <br>
 
-- __[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)__
+* __[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)__
 
 | CSS File  | Outcome of test                  |
 | --------- | -------------------------------- |
@@ -240,7 +238,7 @@ Three fonts were used throughout this website
 
 <br>
 
-- __Lighthouse testing using [PageSpeed Insights](https://pagespeed.web.dev/)__
+* __Lighthouse testing using [PageSpeed Insights](https://pagespeed.web.dev/)__
     - Images can be converted to next-gen formats to improve performance on mobile devices
     - [Results](https://pagespeed.web.dev/analysis/https-cmed01-github-io-Portfolio-Milestone-1/64l0tgdbae?form_factor=mobile)
 
@@ -252,7 +250,7 @@ Three fonts were used throughout this website
 <br>
 
 ### __Browser Compatability__
-- Browser testing was completed on the following browsers using [SauceLabs](https://saucelabs.com/)
+* Browser testing was completed on the following browsers using [SauceLabs](https://saucelabs.com/)
     - Chrome Version 112.0.5615.138 (Official Build) (64-bit)
     - Firefox Version 111.0 (64-bit) 
     - Edge Version 112.0.1722.34 (Official Build) (64-bit)
@@ -262,7 +260,7 @@ Three fonts were used throughout this website
 
 ### __Test Cases and Results__
 
-- The table below details all the test cases that were used.
+* The table below details all the test cases that were used.
 
 <br>
 
@@ -322,17 +320,17 @@ The link to the live website can be found here - [Cake and Bake](https://cmed01.
 ## __Credits__
 ### __Content__
 
-- All content was written by the developer
+* All content was written by the developer
 
 ### __Code__
 
-- Code on how to add a Favicon to the website was based on example code from [W3Schools HTML Favicon](https://www.w3schools.com/html/html_favicon.asp#:~:text=To%20add%20a%20favicon%20to,is%20%22favicon.ico%22.)
-- Code on how to add a bottom border to the menu items in the navbar was based on example code from [Stack Overflow -Can we set a gradient color to border-bottom property?](https://stackoverflow.com/questions/23751274/can-we-set-a-gradient-color-to-border-bottom-property)
+* Code on how to add a Favicon to the website was based on example code from [W3Schools HTML Favicon](https://www.w3schools.com/html/html_favicon.asp#:~:text=To%20add%20a%20favicon%20to,is%20%22favicon.ico%22.)
+* Code on how to add a bottom border to the menu items in the navbar was based on example code from [Stack Overflow -Can we set a gradient color to border-bottom property?](https://stackoverflow.com/questions/23751274/can-we-set-a-gradient-color-to-border-bottom-property)
 
 ### __Media__
 
-- The logo was adapted from the official [Cake and Bake](https://www.instagram.com/cakeandbakeldn/) business owner with their permission.
-- The colours used across this project were taken from the Cake and Bake logo.
+* The logo was adapted from the official [Cake and Bake](https://www.instagram.com/cakeandbakeldn/) business owner with their permission.
+* The colours used across this project were taken from the Cake and Bake logo.
 
 ### __Acknowledegements__
 
