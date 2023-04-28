@@ -96,7 +96,7 @@ Three images - mobile, tablet and laptops
 Changes to the design were made during the build process in order to meet the project deadline and deliver a MVP.
 - Changed layout of images and description on the index page and about me page for laptop and tablets screens.
 - Removed 3 columns from the photos on the gallery page.
-- CHanged the layout of the form and image on the contact me page for laptop screens.
+- Changed the layout of the form and image on the contact me page for laptop screens.
 - Removed contact section from form page as contact details present in the footer.
 
 ### __Surface (including Features)__
