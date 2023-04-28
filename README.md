@@ -113,35 +113,38 @@ Three fonts were used throughout this website
 #### __Features__
 
 * Navigation bar
-    - The navigation bar has a consistent look across all pages. It contains a logo of the company and links to all the other pages in the website. The menu link of the active page contains a bottom border and when hovered over, a dynamic colour change should occur. The colour of these should be consistent with the colour scheme of the website.
+    - The navigation bar has a consistent look across all pages. It contains a logo of the company allowing all users to easily indentify the business brand.
+    - It also contains links to all the other pages allowing the user to easily navigate through the website.
+    - The menu link of the active page contains a bottom border and when hovered over, a dynamic colour change occurs. This allows the user to know which page they are on and that these are active links.
 
 ![Navbar](readme-attachments/navbar-img.png)
 
 * Home page
-    - The home page includes a hero image with text overlay, both of which simply provide an overview of the business and its goals. 
-    - Information regarding the cake options that can be provided are in sections below the hero image
+    - The home page includes a hero image with text overlay, both of which simply provide an overview of the business and its goals to the user. 
+    - Information regarding the cake options that can be provided are in sections below the hero image. The user can obtain information of the products on offer.
     - At the bottom of the page there is a testimonial section, providing recent feedback on the products available.
 
 ![Hero Image](readme-attachments/hero-img.png)
 
 * Footer
-    - The footer includes the business logo, contact details (phone, address, email) and links to all active social media pages (Facebook and Instagram).
+    - The footer includes the business logo, contact details (phone, address, email) and links to all active social media pages (Facebook and Instagram). The user can access linked social media platforms that the business uses.
 
 ![Footer](readme-attachments/footer-img.png)
 
 * About me page
-    - Continued use of the colour scheme throughout. The about me page provides an action image with a biography.
+    - Continued use of the colour scheme throughout. The about me page provides an action image with a biography providing the user informative background on the owner and baker.
 
 ![About me page](readme-attachments/about-me-img.png)
 
 * Gallery page
-    - The gallery page contains stand out photos of completed baking projects, showcasing what is on offer. There is a minimum of two sections, each 8 photos. The layout will be responsive initially with 2 columns on smaller screens progressing to 4 columns on larger devices.
+    - The gallery page contains stand out photos of completed baking projects, showcasing what is on offer to the user. There is a minimum of two sections, each 8 photos. The layout will be responsive initially with 2 columns on smaller screens progressing to 4 columns on larger devices.
 
 ![Gallery responsiveness](readme-attachments/gallery-responsive-img.png)
 
 * Contact page
     - The contact page includes an interactive map of the location of the business and a contact me form.
     - The form will consist of required and optional inputs that will provide the foundation information required by the business.
+    - The form will allow the user to make contact with the business and engage in the services provided.
 
 ![Contact form and interactive map](readme-attachments/contact-page-img.png)
 
