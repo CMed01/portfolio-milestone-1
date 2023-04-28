@@ -58,8 +58,6 @@ Reasons for the site
     1. As a frequent user, I want to be able to access and view the gallery and the business's social media links. Both will allow me to keep up to date with new baking projects.
     2. As a frequent user, I want to be able to contact the business and request a service.
 
-<br>
-
 ### __Scope__
 
 Functionally, the site must be:
@@ -73,8 +71,6 @@ Content should include the following:
 * Link to social media pages.
 * Provide a simple process to get in touch by phone, email, social media or via a contact form.
 
-<br>
-
 ### __Structure__
 
 Based on content required in the scope of this project, this website will consist of 4 pages
@@ -84,27 +80,17 @@ Based on content required in the scope of this project, this website will consis
 * Gallery page - a selection of photos, ideally in sections, showcasing her work.
 * Contact page - location of the business and contact form.
 
-<br>
-
 ### __Skelton (Wireframes)__
 
 Three images - mobile, tablet and laptops
 
-1. #### Index Page
-![Index Page Wireframe](readme-attachments/wireframes/index-wireframe.png)
-<br>
+[Index page wireframe](https://github.com/CMed01/Portfolio-Milestone-1/blob/main/readme-attachments/wireframes/index-wireframe.png)
 
-2. #### About Page
-![Cake and Bake Logo](readme-attachments/wireframes/about-wireframe.png)
-<br>
+[About Me page wireframe](https://github.com/CMed01/Portfolio-Milestone-1/blob/main/readme-attachments/wireframes/about-wireframe.png)
 
-3. #### Gallery Page
-![Cake and Bake Logo](readme-attachments/wireframes/gallery-wireframe.png)
-<br>
+[Gallery page wireframe](https://github.com/CMed01/Portfolio-Milestone-1/blob/main/readme-attachments/wireframes/gallery-wireframe.png)
 
-4. #### Form Page
-![Cake and Bake Logo](readme-attachments/wireframes/form-wireframe.png)
-<br>
+[Contact page wireframe](https://github.com/CMed01/Portfolio-Milestone-1/blob/main/readme-attachments/wireframes/form-wireframe.png)
 
 #### __Changes to wireframes__
 Changes to the design were made during the build process in order to meet the project deadline and deliver a MVP.
@@ -113,14 +99,10 @@ Changes to the design were made during the build process in order to meet the pr
 - CHanged the layout of the form and image on the contact me page for laptop screens.
 - Removed contact section from form page as contact details present in the footer.
 
-<br>
-
 ### __Surface (including Features)__
 
 #### __Color scheme__
 ![Color Scheme](readme-attachments/color-scheme.png)
-
-<br>
 
 #### __Typography__
 Three fonts were used throughout this website
@@ -128,71 +110,46 @@ Three fonts were used throughout this website
 2. 'Montserrat Alternates' (back-up sans-serif) - used for sll heading 3-6 and labels elements 
 3. 'Biryani' (back-up sans-serif) - used for all other elements
 
-<br>
-
 #### __Features__
 
 * Navigation bar
     - The navigation bar has a consistent look across all pages. It contains a logo of the company and links to all the other pages in the website. The menu link of the active page contains a bottom border and when hovered over, a dynamic colour change should occur. The colour of these should be consistent with the colour scheme of the website.
 
-<br>
-
 ![Navbar](readme-attachments/navbar-img.png)
-
-<br>
 
 * Home page
     - The home page includes a hero image with text overlay, both of which simply provide an overview of the business and its goals. 
     - Information regarding the cake options that can be provided are in sections below the hero image
     - At the bottom of the page there is a testimonial section, providing recent feedback on the products available.
 
-<br>
-
 ![Hero Image](readme-attachments/hero-img.png)
-
-<br>
 
 * Footer
     - The footer includes the business logo, contact details (phone, address, email) and links to all active social media pages (Facebook and Instagram).
-<br>
 
 ![Footer](readme-attachments/footer-img.png)
-
-<br>
 
 * About me page
     - Continued use of the colour scheme throughout. The about me page provides an action image with a biography.
 
-<br>
-
 ![About me page](readme-attachments/about-me-img.png)
-
-<br>
 
 * Gallery page
     - The gallery page contains stand out photos of completed baking projects, showcasing what is on offer. There is a minimum of two sections, each 8 photos. The layout will be responsive initially with 2 columns on smaller screens progressing to 4 columns on larger devices.
 
-<br>
-
 ![Gallery responsiveness](readme-attachments/gallery-responsive-img.png)
-
-<br>
 
 * Contact page
     - The contact page includes an interactive map of the location of the business and a contact me form.
     - The form will consist of required and optional inputs that will provide the foundation information required by the business.
 
-<br>
-
 ![Contact form and interactive map](readme-attachments/contact-page-img.png)
-
-<br>
 
 * Future
     - Improved testimonials section on the home page to include a carousel of feedback (at present only one testimonial present)
     - The navbar functionality can be improved so that it remains at the top of the screen when scrolling down the page.
-
-<br>
+    - FAQ's page to provide information of the services provided and the cake baking process.
+    - Functionailty to take payment for cake orders.
 
 ## __Technologies__
 
@@ -213,8 +170,6 @@ Three fonts were used throughout this website
 * [Bitly](https://app.bitly.com/) - Used to create bitly links for long URLs.
 * [Am I Responsive?](https://ui.dev/amiresponsive) - Used to create an image of website on various screen sizes.
 
-<br>
-
 ## __Testing__
 
 ### __Validator testing__
@@ -228,15 +183,11 @@ Three fonts were used throughout this website
 | Gallery  | Document checking completed. No errors or warnings to show. [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmed01.github.io%2FPortfolio-Milestone-1%2Fgallery.html) |
 | Contact  | Document checking completed. No errors or warnings to show. [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmed01.github.io%2FPortfolio-Milestone-1%2Fcontact.html)|
 
-<br>
-
 * __[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)__
 
 | CSS File  | Outcome of test                  |
 | --------- | -------------------------------- |
 | style.css | Congratulations! No Error Found. [Result](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fcmed01.github.io%2FPortfolio-Milestone-1%2F&usermedium=all&vextwarning=&warning=1) |
-
-<br>
 
 * __Lighthouse testing using [PageSpeed Insights](https://pagespeed.web.dev/)__
     - Images can be converted to next-gen formats to improve performance on mobile devices
@@ -247,8 +198,6 @@ Three fonts were used throughout this website
 | Mobile  | 71%         | 100%          | 100%          | 97%  |
 | Desktop | 95%         | 100%          | 100%          | 100% |
 
-<br>
-
 ### __Browser Compatability__
 * Browser testing was completed on the following browsers using [SauceLabs](https://saucelabs.com/)
     - Chrome Version 112.0.5615.138 (Official Build) (64-bit)
@@ -256,14 +205,9 @@ Three fonts were used throughout this website
     - Edge Version 112.0.1722.34 (Official Build) (64-bit)
     - Safari Version 16.1 (18614.2.9.1.12) (accessed via macOS Ventura 13) 
 
-<br>
-
 ### __Test Cases and Results__
 
 * The table below details all the test cases that were used.
-
-<br>
-
 
 | Test no. | Test Label                            | Test Action                                                                                                                                                                                                                    | Expected Outcome                                                                                                                                                                                                                                                                                                                                                                                                      | Test Outcome |
 | -------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
@@ -288,8 +232,6 @@ Three fonts were used throughout this website
 | T19      | UX - Responsivness about me page      | Change the width screen sizes to the following:<br>a. Extra small devices - <600px<br>b. Small devices - 600px to 768px<br>c. Medium devices - 768px to 992px<br>d. Large devices - 992px to 1200px<br>e. Extra large devices - >1200px | 1\. Image of the baker will increase in size as the width increases. Once at 600px and another at 768px<br>2\. Text will remain centralise throughout with a max width of 700px                                                                                                                                                                                                                                           | Pass         |
 | T20      | UX - Responsivness gallery page       | Change the width screen sizes to the following:<br>a. Extra small devices - <600px<br>b. Small devices - 600px to 768px<br>c. Medium devices - 768px to 992px<br>d. Large devices - 992px to 1200px<br>e. Extra large devices - >1200px | 1\. Both photo sections will contain 2 columns of photos with 8 photos in each and this will change to 4 columns of photos when width is >768px<br>2\. Max width of screen will be 1500px and the page will remain centralised. Photos will maintain an aspect ratio.                                                                                                                                                       | Pass         |
 | T21      | UX - Responsivness contact page       | Change the width screen sizes to the following:<br>a. Extra small devices - <600px<br>b. Small devices - 600px -768px<br>c. Medium devices - 768px to 992px<br>d. Large devices - 992px to 1200px<br>e. Extra large devices - >1200px | 1\. Image of a child eating cake will increase in size as the width increases. Once at 600px and another at 768px<br>2\. Form will remain centralise throughout with a max width of 900px<br>3\. Layout of form will remain constant throughout width increases<br>4\. Map will increase proportionally in size with a max width of 900 px<br>5\. Max width of screen will be 1500px and the page will remain centralised. | Pass         |
-
-<br>
 
 ## __Deployement__
 
@@ -318,6 +260,7 @@ The link to the live website can be found here - [Cake and Bake](https://cmed01.
 5. On the command line, type "git clone" then paste in the copied url (https://github.com/CMed01/Portfolio-Milestone-1.git) and press the Enter key to begin the clone process
 
 ## __Credits__
+
 ### __Content__
 
 * All content was written by the developer
